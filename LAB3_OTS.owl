@@ -1,0 +1,269 @@
+Prefix(:=<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6>
+
+Declaration(Class(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource>))
+Declaration(Class(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem>))
+Declaration(Class(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player>))
+Declaration(Class(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools>))
+Declaration(Class(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#items>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#canCraft>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_ComputerChip>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_CopperWire>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Glass>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_SiliconeRubber>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_WiringKit>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CaveSulfur>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_SilverOre>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample>))
+Declaration(DataProperty(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Acid_Mushroom>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Battery>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Cave_Sulfur>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Computer_Chip>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Ore>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Wire>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Creepvine_Seed_Cluster>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flare>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flashlight>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Glass>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Gold_Ore>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Habitat_Builder>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Quartz>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Repair_Tool>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Scanner>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silicone_Rubber>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silver_Ore>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Survival_Knife>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Table_Coral_Sample>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Titanium>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Wiring_Kit>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik>))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_ComputerChip> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_ComputerChip>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_ComputerChip> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_CopperWire> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_CopperWire>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_CopperWire> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Glass> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Glass>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Glass> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_SiliconeRubber> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_SiliconeRubber>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_SiliconeRubber> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_WiringKit> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_WiringKit>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_WiringKit> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CaveSulfur> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CaveSulfur>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CaveSulfur> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_SilverOre> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_SilverOre>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_SilverOre> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample> ""^^xsd:integer)
+
+# Data Property: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium>)
+
+AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium> ""^^xsd:integer)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource>)
+
+SubClassOf(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#items>)
+
+# Class: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem>)
+
+SubClassOf(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#items>)
+
+# Class: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player>)
+
+DisjointClasses(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#items>)
+
+# Class: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools>)
+
+SubClassOf(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#items>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Acid_Mushroom> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Acid_Mushroom>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Acid_Mushroom>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Battery> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Battery>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Battery>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Cave_Sulfur> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Cave_Sulfur>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Cave_Sulfur>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Computer_Chip> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Computer_Chip>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Computer_Chip>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Ore> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Ore>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Ore>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Wire> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Wire>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Copper_Wire>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Creepvine_Seed_Cluster> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Creepvine_Seed_Cluster>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Creepvine_Seed_Cluster>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flare> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flare>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flare>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flashlight> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flashlight>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flashlight>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Glass> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Glass>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Glass>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Gold_Ore> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Gold_Ore>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Gold_Ore>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Habitat_Builder> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Habitat_Builder>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Habitat_Builder>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Quartz> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Quartz>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Quartz>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Repair_Tool> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Repair_Tool>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Repair_Tool>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Scanner> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Scanner>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Scanner>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silicone_Rubber> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silicone_Rubber>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silicone_Rubber>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silver_Ore> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silver_Ore>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Silver_Ore>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Survival_Knife> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Survival_Knife>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Tools> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Survival_Knife>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Table_Coral_Sample> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Table_Coral_Sample>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Table_Coral_Sample>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Titanium> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Titanium>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Base_Resource> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Titanium>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Wiring_Kit> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Wiring_Kit>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#CraftedItem> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Wiring_Kit>)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456>)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "2"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CaveSulfur> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "3"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "1"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_SilverOre> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "2"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "2"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> "0"^^xsd:integer)
+
+# Individual: <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> (<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik>)
+
+ClassAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik>)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "2"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CaveSulfur> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "1"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "1"^^xsd:decimal)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "2"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_SilverOre> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "0"^^xsd:integer)
+DataPropertyAssertion(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik> "1"^^xsd:integer)
+
+
+DifferentIndividuals(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#fafik456> <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#yre4ik>)
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Фонарик") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery> Variable(:p) Variable(:b)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Glass> Variable(:p) Variable(:g)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:b) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:g) "1"^^xsd:integer))Head(ObjectPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#canCraft> Variable(:p) <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Flashlight>)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Строитель") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery> Variable(:p) Variable(:bat)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_ComputerChip> Variable(:p) Variable(:ch)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium> Variable(:p) Variable(:t)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> Variable(:p) Variable(:c)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:bat) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:ch) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:t) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:c) "5"^^xsd:integer))Head(ObjectPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#canCraft> Variable(:p) <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Habitat_Builder>)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Компьютерный чип") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_GoldOre> Variable(:p) Variable(:g)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_TableCoralSample> Variable(:p) Variable(:cor)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_CopperWire> Variable(:p) Variable(:w)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:g) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:cor) "2"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:w) "1"^^xsd:integer))Head(DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_ComputerChip> Variable(:p) "1"^^xsd:integer)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "нож") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_SiliconeRubber> Variable(:p) Variable(:r)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Titanium> Variable(:p) Variable(:t)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:r) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:t) "1"^^xsd:integer))Head(ObjectPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#canCraft> Variable(:p) <http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Survival_Knife>)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Батарейка") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_AcidMushroom> Variable(:p) Variable(:m)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> Variable(:p) Variable(:c)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(:potMushroom) Variable(:m) "2"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:potMushroom) "1"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:c) "1"^^xsd:integer))Head(DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Battery> Variable(:p) "1"^^xsd:integer)))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Медная проволка") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CopperOre> Variable(:p) Variable(:c)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:c) "2"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(:wireResult) Variable(:c) "2"^^xsd:integer))Head(DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_CopperWire> Variable(:p) Variable(:wireResult))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Резина") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_CreepvineSeedCluster> Variable(:p) Variable(:s)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:s) "2"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(:rubberResult) Variable(:s) "2"^^xsd:integer))Head(DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_SiliconeRubber> Variable(:p) Variable(:rubberResult))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "") Annotation(rdfs:label "Может создать стекло") Body(ClassAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#Player> Variable(:p)) DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_res_Quartz> Variable(:p) Variable(:q)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> Variable(:q) "2"^^xsd:integer) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(:glassResult) Variable(:q) "2"^^xsd:integer))Head(DataPropertyAtom(<http://www.semanticweb.org/efrem/ontologies/2026/10/untitled-ontology-6#count_craft_Glass> Variable(:p) Variable(:glassResult))))
+)
